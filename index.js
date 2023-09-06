@@ -39,19 +39,20 @@ var employee_tracker = function () {
                 console.table(result);
                 employee_tracker();
             });
-//         } else if (answers.prompt === 'Add A Department') {
-//             inquirer.prompt([{
-//                 type: 'input',
-//                 name: 'department',
-//                 message: 'What is the name of the department?',
-//                 validate: departmentInput => {
-//                     if (departmentInput) {
-//                         return true;
-//                     } else {
-//                         console.log('Please Add A Department!');
-//                         return false;
-//                     }
-//                 }
+            // or else if answer is add a department give the prompt for input, department and name of the department, validate it or throw the error 'add a department'.
+        } else if (answers.prompt === 'Add A Department') {
+            inquirer.prompt([{
+                type: 'input',
+                name: 'department',
+                message: 'What is the name of the department?',
+                validate: departmentInput => {
+                    if (departmentInput) {
+                        return true;
+                    } else {
+                        console.log('Please Add A Department!');
+                        return false;
+                    }
+                }
 //             }]).then((answers) => {
 //                 db.query(`INSERT INTO department (name) VALUES (?)`, [answers.department], (err, result) => {
 //                     if (err) throw err;
