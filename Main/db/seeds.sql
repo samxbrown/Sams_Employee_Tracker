@@ -1,4 +1,6 @@
 -- Inserts names of departments into department table
+USE employee_tracker_db;
+
 INSERT INTO department
 (name)
 VALUES

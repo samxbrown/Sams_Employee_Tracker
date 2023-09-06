@@ -7,4 +7,4 @@ const db = mysql.createConnection({
     database: 'employee_tracker_db'
 });
 
-module.exprts = db;
+module.exports = db;
