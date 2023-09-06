@@ -31,13 +31,14 @@ var employee_tracker = function () {
                 console.table(result);
                 employee_tracker();
             });
-//         } else if (answers.prompt === 'View All Employees') {
-//             db.query(`SELECT * FROM employee`, (err, result) => {
-//                 if (err) throw err;
-//                 console.log("Viewing All Employees: ");
-//                 console.table(result);
-//                 employee_tracker();
-//             });
+            // or else if answer prompt is view all roles then grab all employee information or throw an error
+        } else if (answers.prompt === 'View All Employees') {
+            db.query(`SELECT * FROM employee`, (err, result) => {
+                if (err) throw err;
+                console.log("Viewing All Employees: ");
+                console.table(result);
+                employee_tracker();
+            });
 //         } else if (answers.prompt === 'Add A Department') {
 //             inquirer.prompt([{
 //                 type: 'input',
