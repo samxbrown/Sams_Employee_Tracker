@@ -34,7 +34,7 @@ Once you have the project set up locally, you can:
 
 ## Screenshot
 ![Screenshot 2023-09-23 at 5 33 36 PM](https://github.com/samxbrown/Sams_Employee_Tracker/assets/135293566/d65adb9a-25ba-4b78-bb08-8816601f97ba)
-
+https://drive.google.com/file/d/1GNSx-2tGfqYcTeGVhK7dW52uBP29GPpz/view
 https://github.com/samxbrown/Sams_Employee_Tracker
 
 ## Credits
