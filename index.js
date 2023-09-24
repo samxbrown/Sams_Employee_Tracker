@@ -49,7 +49,7 @@ var employee_tracker = function () {
                     if (departmentInput) {
                         return true;
                     } else {
-                        console.log('Please Add A Department!');
+                        console.log('Add A Department');
                         return false;
                     }
                 }
@@ -73,7 +73,7 @@ var employee_tracker = function () {
                             if (roleInput) {
                                 return true;
                             } else {
-                                console.log('Please Add A Role!');
+                                console.log('Add A Role');
                                 return false;
                             }
                         }
@@ -86,7 +86,7 @@ var employee_tracker = function () {
                             if (salaryInput) {
                                 return true;
                             } else {
-                                console.log('Please Add A Salary!');
+                                console.log('Add A Salary');
                                 return false;
                             }
                         }
@@ -130,7 +130,7 @@ var employee_tracker = function () {
                             if (firstNameInput) {
                                 return true;
                             } else {
-                                console.log('Please Add A First Name!');
+                                console.log('Add A First Name');
                                 return false;
                             }
                         }
@@ -143,7 +143,7 @@ var employee_tracker = function () {
                             if (lastNameInput) {
                                 return true;
                             } else {
-                                console.log('Please Add A Salary!');
+                                console.log('Add A Salary');
                                 return false;
                             }
                         }
@@ -169,7 +169,7 @@ var employee_tracker = function () {
                             if (managerInput) {
                                 return true;
                             } else {
-                                console.log('Please Add A Manager!');
+                                console.log('Add A Manager');
                                 return false;
                             }
                         }
